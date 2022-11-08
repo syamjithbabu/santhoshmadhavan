@@ -1,0 +1,538 @@
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+    <!-- Content
+  ============================================= -->
+    <div id="content" role="main">
+
+      <!-- Intro
+    ============================================= -->
+      <section id="home">
+        <div class="hero-wrap">
+          <div class="hero-mask opacity-2 bg-dark"></div>
+          <div class="hero-bg parallax banner-section"
+            style="background-image:url({% static 'web/img/sm2.jpg' %});"></div>
+          <div class="hero-content section d-flex fullscreen">
+            <div class="container my-auto">
+              <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-8" style="text-align: right">
+                  <p class="text-7 fw-500 text-white mb-2 mb-md-3 know-me-more1"><img src="{% static 'web/img/sm s.png' %}">The Wealth Builder</p>
+                  <p class="text-16 fw-600 text-white mb-2 mb-md-3 im-sm">SANTHOSH MADHAVAN</p>
+                  <h2 class="text-16 fw-600 text-white mb-2 mb-md-3"><span class="typed"></span></h2>
+                  <p class="text-5 text-light mb-4 address1 stock-market1">STOCK MARKET STRATEGIST & FINANCIAL CONSULTANT</p>
+                  <div class="contact-me">
+                  <a href="#contact" class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2 contact-me">Contact
+                    Me</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i
+                  class="fa fa-chevron-down"></i></span></a>
+          </div>
+        </div>
+      </section>
+      <!-- About============================================= -->
+    
+      <section id="about" class="section">
+        <div class="container">
+          <!-- Heading -->
+          <div class="position-relative d-flex text-center mb-5">
+            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">About Me</h2>
+            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 know-me-more">Know Me More<span
+                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          </div>
+          <!-- Heading end-->
+
+          <div class="row gy-5">
+            <div class="col-lg-7 col-xl-8 text-left text-lg-start increase">
+              <h2 class="fw-600 mb-3 santhosh-madhavan" style="font-size:45px;">I'M <span class="text-primary">SANTHOSH MADHAVAN,</h2><h2 class="text-7 fw-600 mb-3 stock-market"></span> a Stock Market
+                Strategist and Financial Consultant at HDFC Life.</h2>
+              <p>Increase your wealth tenfold through legitimate means like Stock Market, Mutual Funds, ULIP and
+                Insurance with the leading stock market strategist in Kerala. Financial services are delivered to every
+                individual to help them meet their big and small financial goals for the future.</p>
+              <p>The quality and professionalism in the services have paved the way to procured exceptional results for
+                thousands of clients while working with the extraordinary service delivered so far. Get the best
+                guidance and assistance from a professional stock market strategist to get your financial stability.
+              </p>
+            </div>
+            <div class="col-lg-5 col-xl-4">
+              <div class="ps-lg-4">
+                <ul class="list-style-2">
+                  <li class=""><span class="fw-600 me-2">Name:</span>Santhosh Madhavan</li>
+                  <li class=""><span class="fw-600 me-2">Email:</span><a href="mailto:ksanthoshmadhavan@gmail.com">ksanthoshmadhavan@gmail.com
+                  </a></li>
+                  <li class="border-0"><span class="fw-600 me-2">From:</span>Ernakulam, Kerala</li>
+                </ul>
+            </div>
+            <!-- chart -->
+            <!-- <div class="col-lg-5 col-xl-4">
+              <div id="chart_div1" class="chart"></div>
+            </div> -->
+
+          </div>
+          <div class="brands-grid separator-border mt-5">
+            <!-- <div class="row">
+              <div class="col-6 col-md-3">
+                <div class="featured-box text-center">
+                  <h4 class="text-12 text-muted mb-0"><span class="counter" data-from="0" data-to="10">10</span>+</h4>
+                  <p class="mb-0">Years Experiance</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="featured-box text-center">
+                  <h4 class="text-12 text-muted mb-0"><span class="counter" data-from="0" data-to="250">250</span>+</h4>
+                  <p class="mb-0">Happy Clients</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="featured-box text-center">
+                  <h4 class="text-12 text-muted mb-0"><span class="counter" data-from="0" data-to="650">650</span>+</h4>
+                  <p class="mb-0">Projects Done</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="featured-box text-center">
+                  <h4 class="text-12 text-muted mb-0"><span class="counter" data-from="0" data-to="38">20</span></h4>
+                  <p class="mb-0">Get Awards</p>
+                </div>
+              </div>
+
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- About end -->
+
+      <!-- Services
+    ============================================= -->
+      <section id="services" class="section bg-light">
+        <div class="container">
+          <!-- Heading -->
+          <div class="position-relative d-flex text-center mb-5">
+            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Services</h2>
+            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 know-me-more">What I Do?<span
+                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          </div>
+          <!-- Heading end-->
+
+          <div class="row">
+            <div class="col-lg-11 mx-auto">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i class="fa-solid fa-child-reaching"></i> </div>
+                    <h3>Stock Market Training Program</h3>
+                    <p class="mb-0">Stock market training program for stock market traders and investors (public & personal)  that help in learning the techniques to earn better profit in the stock market.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-white shadow-sm rounded"><i class="fa-solid fa-school"></i></div>
+                    <h3>Trading Strategist</h3>
+                    <p class="mb-0">Strategies to identify stock price movements by in-depth technical knowledge of Trends & Patterns.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i
+                        class="fas fa-pencil-ruler"></i> </div>
+                    <h3>Portfolio Consulting</h3>
+                    <p class="mb-0">Provides services in relation to building portfolios of various stocks according to investor's requirements.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-white shadow-sm rounded">  <i
+                      class="fas fa-chart-area"></i> </div>
+                    <h3>Mutual Funds</h3>
+                    <p class="mb-0">A mutual fund's portfolio is its collection of holdings. Investments in mutual funds are made by investors.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5 mb-md-0">
+                    <div class="featured-box-icon text-primary bg-white shadow-sm rounded"><i class="fa-solid fa-coins"></i> </div>
+                    <h3>Investment Plans</h3>
+                    <p class="mb-0">Aligning your financial goals with your investment resources is the process of investment planning.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-0">
+                    <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i class="fa-solid fa-house-chimney-crack"></i> </div>
+                    <h3>ULIP & Insurance Plans</h3>
+                    <p class="mb-0">A ULIP (Unit Linked Insurance Plan) is an insurance plan that offers both investment and life cover protection in case of unforeseen events.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services end -->
+
+      <!-- resume start -->
+      <!-- <section id="resume" class="section">
+        <div class="container">  -->
+          <!-- Heading -->
+          <!-- <div class="position-relative d-flex text-center mb-5">
+            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Summary</h2>
+            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Resume<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          </div> -->
+          <!-- Heading end-->
+          
+          <!-- <div class="row gx-5">  -->
+            <!-- My Education -->
+            <!-- <div class="col-md-6">
+              <h2 class="text-6 fw-600 mb-4">My Education</h2>
+              <div class="bg-white border rounded p-4 mb-4">
+                <p class="badge bg-primary text-2 fw-400">2000 - 2004</p>
+                <h3 class="text-5">Computer Science</h3>
+                <p class="text-danger">International University</p>
+                <p class="mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+              </div>
+              <div class="bg-white border rounded p-4 mb-4">
+                <p class="badge bg-primary text-2 fw-400">2005 - 2008</p>
+                <h3 class="text-5">Bachelor Degree</h3>
+                <p class="text-danger">University of California</p>
+                <p class="mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+              </div>
+              <div class="bg-white border rounded p-4 mb-4">
+                <p class="badge bg-primary text-2 fw-400">2009 - 2012</p>
+                <h3 class="text-5">Master Degree</h3>
+                <p class="text-danger">Harvard University</p>
+                <p class="mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+              </div>
+            </div> -->
+            
+            <!-- My Experience -->
+            <!-- <div class="col-md-6">
+              <h2 class="text-6 fw-600 mb-4">My Experience</h2>
+              <div class="bg-white border rounded p-4 mb-4">
+                <p class="badge bg-primary text-2 fw-400">2012 - 2013</p>
+                <h3 class="text-5">Jr. UI UX Designer</h3>
+                <p class="text-danger">Themeforest</p>
+                <p class="mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+              </div>
+              <div class="bg-white border rounded p-4 mb-4">
+                <p class="badge bg-primary text-2 fw-400">2014 - 2016</p>
+                <h3 class="text-5">Jr. Product Designer</h3>
+                <p class="text-danger">Dribbble</p>
+                <p class="mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+              </div>
+              <div class="bg-white border rounded p-4 mb-4">
+                <p class="badge bg-primary text-2 fw-400">2017 - 2019</p>
+                <h3 class="text-5">Product Designer</h3>
+                <p class="text-danger">Adobe</p>
+                <p class="mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+              </div>
+            </div>
+          </div> -->
+          <!-- My Skills -->
+      
+        <!-- </div>
+      </section> -->
+      <!-- resume end -->
+
+      <!-- Portfolio
+    ============================================= -->
+      <section id="portfolio" class="section bg-light">
+        <div class="container">
+          <!-- Heading -->
+          <div class="position-relative d-flex text-center mb-5">
+            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Gallery</h2>
+            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 know-me-more">Gallery<span
+                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          </div>
+          <!-- Heading end-->
+
+          <!-- Filter Menu -->
+          <!-- <ul class="portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5">
+            <li class="nav-item"> <a data-filter="*" class="nav-link active" href="#">All</a></li>
+            <li class="nav-item"> <a data-filter=".design" href="#" class="nav-link">Design</a></li>
+            <li class="nav-item"> <a data-filter=".brand" href="#" class="nav-link">Brand</a></li>
+            <li class="nav-item"> <a data-filter=".photos" href="#" class="nav-link">Photos</a></li>
+          </ul> -->
+          <!-- Filter Menu end -->
+          <div class="portfolio ">
+            <div class="row portfolio-filter g-4">
+              {% for images in gallery %}
+               <div class="col-6 col-lg-4 artwork photos">
+                <div class="portfolio-box rounded">
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
+                      src="{{images.gallery_image.url}}" alt="">
+                    <div class="portfolio-overlay popup-img-gallery"> <a class="popup-img stretched-link"
+                        href=""></a>
+                      <div class="portfolio-overlay-details">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+
+              <a href="{% url 'web:gallery' %}">Know More</a>
+
+              <!-- <div class="col-sm-6 col-lg-4 artwork photos">
+                <div class="portfolio-box rounded">
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
+                      src="img/WhatsApp Image 2022-07-12 at 11.07.45 AM (1).jpeg" alt="">
+                    <div class="portfolio-overlay popup-img-gallery"> <a class="popup-img stretched-link"
+                        href="img/sm-img1.jpeg"></a>
+                      <div class="portfolio-overlay-details">
+                        <h5 class="text-white fw-400">Mockups Design</h5>
+                        <span class="text-light">Category</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4 design">
+                <div class="portfolio-box rounded">
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
+                      src="http://demo.harnishdesign.net/html/simone/images/projects/project-5.jpg" alt="">
+                    <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
+                        href="http://demo.harnishdesign.net/html/simone/ajax/portfolio-ajax-project-5.html"></a>
+                      <div class="portfolio-overlay-details">
+                        <h5 class="text-white fw-400">Detailed Project</h5>
+                        <span class="text-light">Category</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-6 col-lg-4 brand">
+                <div class="portfolio-box rounded">
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
+                      src="http://demo.harnishdesign.net/html/simone/images/projects/project-6.jpg" alt="">
+                    <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
+                        href="http://demo.harnishdesign.net/html/simone/ajax/portfolio-ajax-project-6.html"></a>
+                      <div class="portfolio-overlay-details">
+                        <h5 class="text-white fw-400">Detailed Project</h5>
+                        <span class="text-light">Category</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 design photos">
+                <div class="portfolio-box rounded">
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
+                      src="http://demo.harnishdesign.net/html/simone/images/projects/project-7.jpg" alt="">
+                    <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
+                        href="http://demo.harnishdesign.net/html/simone/ajax/portfolio-ajax-project-7.html"></a>
+                      <div class="portfolio-overlay-details">
+                        <h5 class="text-white fw-400">Detailed Project</h5>
+                        <span class="text-light">Category</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div> 
+        </div>
+      </section>
+      <!-- Portfolio end -->
+
+
+      <!-- Contact Me
+    ============================================= -->
+      <section id="contact" class="section bg-light">
+        <div class="container">
+          <!-- Heading -->
+          <div class="position-relative d-flex text-center mb-5">
+            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Contact</h2>
+            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 know-me-more">Get in Touch<span
+                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          </div>
+          <!-- Heading end-->
+          <div class="row gy-5">
+            <div class="col-md-6 col-xl-4 order-1 order-md-0 text-center text-md-start">
+              <h2 class=" text-5 text-uppercase address padding-off">Address</h2>
+              <p class="text-3 padding-off">
+                Kochi,<br>
+                Kerala
+                </p>
+              <p class="text-3 padding-off"><span class="text-primary text-4 me-2"><i class="fas fa-phone"></i></span><a
+                  href="tel:+919605633033">+91 96056 56096</a> <br> &nbsp; &nbsp; &nbsp; <a
+                  href="tel:+9196056 56096 ">+91 96056 33033 
+                </a></p>
+              <p class="text-3 padding-off"><span class="text-primary text-4 me-2"><i class="fas fa-fax"></i></span> <a
+                  href="tel:+9196056 83000">+91 96056 83000</a></p>
+              <p class="text-3 padding-off"><a href="mailto:ksanthoshmadhavan@gmail.com"><span
+                    class="text-primary text-4 me-2"><i
+                      class="fas fa-envelope"></i></span>ksanthoshmadhavan@gmail.com</a></p>
+              <h2 class="mb-3 text-5 text-uppercase address">Follow Me</h2>
+              <ul class="social-icons justify-content-center justify-content-md-start">
+                <!-- <li class="social-icons-dribbble"><a data-bs-toggle="tooltip"
+                    href="http://www.dribbble.com/harnishdesign/" target="_blank" title="Dribbble"><i
+                      class="fab fa-dribbble"></i></a></li> -->
+                <li class="social-icons-google"><a data-bs-toggle="tooltip" href="https://www.instagram.com/invites/contact/?i=b7auaqmsdmus&utm_content=i8i8uzk"
+                    target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-icons-facebook"><a data-bs-toggle="tooltip"
+                    href="https://www.facebook.com/ksanthoshm" target="_blank" title="Facebook"><i
+                      class="fab fa-facebook-f"></i></a></li>
+                <li class="social-icons-google"><a data-bs-toggle="tooltip" href="https://youtube.com/channel/UCcEMLfxYoiegOT_C2XAb9oA"
+                    target="_blank" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                <!-- <li class="social-icons-github"><a data-bs-toggle="tooltip" href="http://www.github.com/"
+                    target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-6 col-xl-8 order-0 order-md-1">
+              <h2 class="mb-3 text-5 text-uppercase text-center text-md-start address">Send me a note</h2>
+              <form id="whatsappform" action="" method="post">
+
+                <div class="row g-4">
+                  <div class="col-xl-6">
+                    <input name="name" type="text" class="form-control" required placeholder="Name">
+                  </div>
+                  <div class="col-xl-6">
+                    <input name="email" type="email" class="form-control" required placeholder="Email">
+                  </div>
+                  <div class="col">
+                    <textarea name="message" id="msg" class="form-control" rows="5"
+                      placeholder="Tell us more about your needs........"></textarea>
+                  </div>
+                </div>
+
+                <p class="text-center mt-4 mb-0">
+                  <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex" type="submit">Send
+                    Message</button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Me end -->
+
+    </div>
+    <!-- Content end -->
+
+
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back to Top
+============================================= -->
+  <a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- Terms & Policy Modal
+================================== -->
+  <div id="terms-policy" class="modal fade" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Terms & Policy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.</p>
+          <h3 class="mb-3 mt-4 mt-4">Terms of Use</h3>
+          <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. Simply dummy text of the printing and typesetting industry.</p>
+          <h5 class="text-4 mt-4">Part I – Information Simone collects and controls</h5>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+            a galley of type and scrambled it to make a type specimen book.</p>
+          <h5 class="text-4 mt-4">Part II – Information that Simone processes on your behalf</h5>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+            a galley of type and scrambled it to make a type specimen book.</p>
+          <h5 class="text-4 mt-4">Part III – General</h5>
+          <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <h3 class="mb-3 mt-4">Privacy Policy</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. </p>
+          <ol class="lh-lg">
+            <li>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
+            <li>Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris
+              vim, ad mea essent possim iriure.</li>
+            <li>In quot quidam persequeris vim, ad mea essent possim iriure. Quidam lisque persius interesset his et.
+            </li>
+            <li>Quidam lisque persius interesset his et, Lisque persius interesset his et.</li>
+            <li>Interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+              possim iriure.</li>
+            <li>Persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+              essent possim iriure.</li>
+            <li>Quot quidam persequeris vim Quidam lisque persius interesset his et, Lisque persius interesset his et,
+              in quot quidam persequeris vim, ad mea essent possim iriure.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Terms & Policy Modal End -->
+
+  <!-- Disclaimer Modal
+================================== -->
+  <div id="disclaimer" class="modal fade" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Copyright & Disclaimer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. </p>
+          <ul class="lh-lg">
+            <li>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
+            <li>Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris
+              vim, ad mea essent possim iriure.</li>
+            <li>In quot quidam persequeris vim, ad mea essent possim iriure. Quidam lisque persius interesset his et.
+            </li>
+            <li>Quidam lisque persius interesset his et, Lisque persius interesset his et.</li>
+            <li>Interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+              possim iriure.</li>
+            <li>Persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+              essent possim iriure.</li>
+            <li>Quot quidam persequeris vim Quidam lisque persius interesset his et, Lisque persius interesset his et,
+              in quot quidam persequeris vim, ad mea essent possim iriure.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Disclaimer Modal End -->
+
+
+  <!-- whatsapp  -->
+  <a href="http://wa.me/919605633033" class="whatsapplink" data-bs-toggle="tooltip"
+    data-bs-original-title="Whatsapp"><img src="img/whatsapp.png" class="whatsapp" alt=""></a>
+  <a href="tel:+9196056 83000" class="phonelink" data-bs-toggle="tooltip" data-bs-original-title="Call"><img
+      src="img/telephone.png" class="call" alt=""></a>
+
+
+
+ 
+
+
+</body>
+
+</html>
+
+{% endblock %}

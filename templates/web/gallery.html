@@ -1,0 +1,48 @@
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+
+<section id="portfolio" class="section bg-light">
+    <div class="container container-fluid">
+      <!-- Heading -->
+      <div class="position-relative d-flex text-center mb-5">
+        <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Gallery</h2>
+        <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 know-me-more">Gallery<span
+            class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+      </div>
+      <!-- Heading end-->
+
+      
+      <div class="portfolio ">
+        <div class="row portfolio-filter g-4">
+
+
+
+          {% for images in gallery %}
+          <div class="col-6 col-lg-4 artwork photos">
+            <div class="portfolio-box rounded">
+                
+              <div class="portfolio-img rounded">
+                 <img class="img-fluid d-block" src="{{images.gallery_image.url}}" alt="">
+                <div class="portfolio-overlay popup-img-gallery"> <a class="popup-img stretched-link"
+                    href=""></a>
+                  <div class="portfolio-overlay-details">
+                  </div>
+                </div>
+                
+              </div>
+             
+            </div>
+            <div class="text-center" style="padding-top: 10px;"><h6>{{images.caption}}</h6></div>
+            
+          </div>
+          
+          {% endfor %}
+       
+
+        </div>
+      </div> 
+    </div>
+  </section>
+
+{% endblock %}

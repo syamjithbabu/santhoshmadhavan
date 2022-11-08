@@ -1,0 +1,54 @@
+{% load static %}
+
+<body data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="70">
+
+  <!-- Preloader -->
+
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top-slide">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-text-light bg-transparent border-bottom-0">
+        <div class="container-fluid position-relative g-lg-4">
+          <div class="col-auto col-lg-2">
+            <!-- Logo -->
+            <a class="logo d-lg-inline d-md-inline d-none" href="{% url 'web:index' %}" title="santhosh madhav"> <img src="{% static 'web/img/SM.png' %}"
+                alt="santhosh madhav" /> </a>
+            <a class="logo d-lg-none d-md-none" href="{% url 'web:index' %}" title="santhosh madhav"> <img src="{% static 'web/img/sm s.png' %}"
+                alt="santhosh madhav" /> </a>
+
+            <!-- Logo End -->
+          </div>
+          <div class="col col-lg-8 navbar-accordion">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+              data-bs-target="#header-nav"><span></span><span></span><span></span></button>
+            <div id="header-nav" class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll active" href="{% url 'web:index' %}">Home</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto col-lg-2 d-flex justify-content-end">
+            <ul class="social-icons social-icons-light">
+              <li class="social-icons-google"><a data-bs-toggle="tooltip" href="https://www.instagram.com/invites/contact/?i=b7auaqmsdmus&utm_content=i8i8uzk"
+                  target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="https://www.facebook.com/ksanthoshm"
+                  target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social-icons-google"><a data-bs-toggle="tooltip" href="https://youtube.com/channel/UCcEMLfxYoiegOT_C2XAb9oA"
+                  target="_blank" title="" data-bs-original-title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->

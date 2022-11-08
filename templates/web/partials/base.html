@@ -1,0 +1,78 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{% static 'web/img/SM-Favicon.png' %}" rel="icon" />
+  <title>Santhosh Madhavan</title>
+  <meta name="description" content="Santhosh Madhavan">
+  <meta name="author" content="Santhosh Madhavan">
+
+  <!-- Web Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="{% static 'web/css/bootstrap.min.css' %}" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" type="text/css" href="{% static 'web/css/owl-carousel.min.css' %}" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="{% static 'web/css/magnific-popup.min.css' %}" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="{% static 'web/css/style.css' %}" />
+  <!-- Colors Css -->
+  <link id="color-switcher" type="text/css" rel="stylesheet" href="#" />
+  <!--Load the AJAX API-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="{% static 'web/js/vendor/chart.js' %}"></script>
+</head>
+
+
+
+{% include 'web/partials/header.html' %}
+    
+{% block content %}
+
+{% endblock %}
+
+{% include 'web/partials/footer.html' %}
+
+ <!-- JavaScript -->
+ <script src="{% static 'web/js/vendor/jquery.min.js' %}"></script>
+ <script src="{% static 'web/js/vendor/bootstrap.bundle.min.js' %}"></script>
+ <script src="{% static 'web/js/vendor/jquery.validate.min.js' %}"></script>
+ <!-- Easing -->
+ <script src="{% static 'web/js/vendor/jquery.easing.min.js' %}"></script>
+ <!-- Appear -->
+ <script src="{% static 'web/js/vendor/jquery.appear.min.js' %}"></script>
+ <!-- Images Loaded -->
+ <script src="{% static 'web/js/vendor/imagesloaded.pkgd.min.js' %}"></script>
+ <!-- Counter -->
+ <script src="{% static 'web/js/vendor/jquery.counTo.min.js' %}"></script>
+ <!-- Parallax Bg -->
+ <script src="{% static 'web/js/vendor/parallaxie.min.js' %}"></script>
+ <!-- Typed -->
+ <script src="{% static 'web/js/vendor/typed.min.js' %}"></script>
+ <!-- Owl Carousel -->
+ <script src="{% static 'web/js/vendor/owl.carousel.min.js' %}"></script>
+ <!-- isotope Portfolio Filter -->
+ <script src="{% static 'web/js/vendor/isotope.pkgd.min.js' %}"></script>
+ <!-- Magnific Popup -->
+ <script src="{% static 'web/js/vendor/jquery.magnific-popup.min.js' %}"></script>
+ <!-- Style Switcher -->
+ <script src="{% static 'web/js/vendor/switcher.min.js' %}"></script>
+ <!-- Custom Script -->
+ <script src="{% static 'web/js/vendor/theme.js' %}"></script>
+ <script id="google-recaptcha-v3"
+   src="../../../www.google.com/recaptcha/api1e84.js?render=6LcmyrcZAAAAAIHP9WnJyuxn9vBiiro6WRpITEsQ"></script>
+
+ <script src="{% static 'web/js/vendor/whatsapp.js' %}"></script>
